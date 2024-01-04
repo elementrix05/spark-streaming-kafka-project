@@ -10,7 +10,13 @@ Gets random names from the API. Sends the name data to Kafka topics every 10 sec
 
 `sample_response.json` -> Sample response coming from the API
 
+## Package Requirements 
 
+`kafka==2.4.0`
+`kafka-python==2.0.2`
+`requests==2.30.0`
+`json5==0.9.6`
+`pyspark==3.5.0`
 
 ## Process
 
